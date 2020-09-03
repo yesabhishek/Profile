@@ -141,7 +141,7 @@ const workExperiences = {
       role: "IT Intern",   
       company: "Tinplate Company of India Ltd.",
       companylogo: require("./assets/images/TinplateLogo.jpeg"),
-      date: "May 2017 – May 2018",
+      date: "May 2017 – July 2017",
       desc: "Developed a website TCIL Complaint registration service for the same using ASP .Net and C#",
       descBullets: [
         "Studied the past scenario for registering complaints against company assets like monitors, CPU, projectors, Air conditioners etc.",
