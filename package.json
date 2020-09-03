@@ -1,8 +1,12 @@
 {
-  "homepage": "https://developerfolio.js.org/",
-  "name": "saadpasta.github.io",
+  "homepage": "",
+  "name": "yesabhishek.github.io",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "npm": "6.14.6",
+    "node": "14.6.0"
+  },
   "dependencies": {
     "@apollo/react-hooks": "^3.1.4",
     "apollo-boost": "^0.4.4",
