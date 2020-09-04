@@ -9,7 +9,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Yesabhishek",
   title: "नमस्ते, I'm Abhishek",
-  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with Python/ Django /JavaScript /Reactjs and some other cool libraries and frameworks."),
+  subTitle: emoji("A passionate engineer 🚀 having an experience of building Web applications and Data Analysing tools with Python/ Django /JavaScript /Reactjs and some other cool libraries and frameworks."),
   resumeLink: "https://drive.google.com/file/d/1_-PJEIxsKHq2wv5T6_2cSeh1R1-diU5g/view?usp=sharing"
 };
 
@@ -17,9 +17,9 @@ const greeting = {
 
 const socialMediaLinks = {
 
-  github: "https://github.com/yesabhihek",
-  linkedin: "https://www.linkedin.com/in/yesabhihek/",
-  gmail: "choudhuryabhishek76@gmail.com",
+  github: "https://github.com/yesabhishek",
+  linkedin: "https://www.linkedin.com/in/yesabhishek/",
+  gmail: "yesabhishek@protonmail.com",
   instagram: "https://www.instagram.com/yesabhishek/"
   // Instagram and Twitter are also supported in the links!
 };
@@ -142,7 +142,7 @@ const workExperiences = {
       company: "Tinplate Company of India Ltd.",
       companylogo: require("./assets/images/TinplateLogo.jpeg"),
       date: "May 2017 – July 2017",
-      desc: "Developed a website TCIL Complaint registration service for the same using ASP .Net and C#",
+      desc: "Developed a website TCIL Complaint Registration Service using ASP .Net and C#",
       descBullets: [
         "Studied the past scenario for registering complaints against company assets like monitors, CPU, projectors, Air conditioners etc.",
         "Resolved the issue of data redundancy, data entry errors and data loss"
@@ -201,7 +201,7 @@ const achievementSection = {
       image: require("./assets/images/hackerranklogo.webp"),
       footerLink: [
         { name: "Badge", url: "https://www.hackerrank.com/yesabhishek" },
-        { name: "Github Link", url: "" }
+        { name: "Github Link", url: "https://github.com/yesabhishek/Solution-Snippets" }
       ]
     },
     {
@@ -209,7 +209,7 @@ const achievementSection = {
       subtitle: "Aptech certified python developer. Trained for about 3 months at Aptech learning center.",
       image: require("./assets/images/aptechlogo.webp"),
       footerLink: [
-        { name: "Certificate", url: "" }
+        { name: "Certificate"  }
       ]
     }
   ]
@@ -266,7 +266,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+91 7903717967",
-  email_address: "choudhuryabhishek76@gmail.com"
+  email_address: "yesabhishek@protonmail.com"
 };
 
 //Twitter Section

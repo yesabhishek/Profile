@@ -28,7 +28,7 @@ function Header() {
           }
           
           <li>
-            <a href="https://github.com/yesabhishek">Projects</a>
+            <a href="#projects">Projects</a>
           </li>
           <li>
             <a href="#achievements">Achievements</a>
