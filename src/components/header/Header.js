@@ -28,7 +28,7 @@ function Header() {
           }
           
           <li>
-            <a href="#projects">Projects</a>
+            <a href="#opensource">Projects</a>
           </li>
           <li>
             <a href="#achievements">Achievements</a>
