@@ -1,14 +1,14 @@
 import React from "react";
 import Headroom from "react-headroom";
 import "./Header.css";
-import {greeting, workExperiences} from "../../portfolio";
+import { greeting, workExperiences } from "../../portfolio";
 
 function Header() {
   const exp = workExperiences.viewExperiences;
   return (
     <Headroom>
       <header className="header">
-        <a href="" className="logo">
+        <a href="/" className="logo">
           <span className="grey-color"> &lt;</span>
           <span className="logo-name">{greeting.username}</span>
           <span className="grey-color">/&gt;</span>
@@ -21,19 +21,19 @@ function Header() {
           <li>
             <a href="#skills">Skills</a>
           </li>
-          { exp === true &&
+          {exp === true && (
             <li>
               <a href="#experience">Work Experiences</a>
             </li>
-          }
-          
+          )}
+
           <li>
             <a href="#opensource">Projects</a>
           </li>
           <li>
             <a href="#achievements">Achievements</a>
           </li>
-          
+
           <li>
             <a href="#contact">Contact Me</a>
           </li>

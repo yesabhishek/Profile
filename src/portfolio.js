@@ -9,7 +9,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Yesabhishek",
   title: "नमस्ते, I'm Abhishek",
-  subTitle: emoji("A passionate engineer 🚀 having an experience of building Web applications and Data Analysing tools with Python/ Django /JavaScript /Reactjs and some other cool libraries and frameworks."),
+  subTitle: emoji("A passionate Engineer 🚀 having an experience of building Web applications and working on Data Analytics tools with Python/ Django /Reactjs and some other cool libraries and frameworks."),
   resumeLink: "https://drive.google.com/file/d/1_-PJEIxsKHq2wv5T6_2cSeh1R1-diU5g/view?usp=sharing"
 };
 
@@ -197,7 +197,7 @@ const achievementSection = {
 
     {
       title: "Hackerrank",
-      subtitle: "Recieved 5 Gold stars on Java and Python. Solution to the question can be found on my Github.",
+      subtitle: "Recieved certifications on Java and Python. Solution to the questions can be found on my Github link(below).",
       image: require("./assets/images/hackerranklogo.webp"),
       footerLink: [
         { name: "Badge", url: "https://www.hackerrank.com/yesabhishek" },
