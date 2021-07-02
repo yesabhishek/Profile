@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Header from "../components/header/Header";
+import Header from '../components/header/Header';
 import Greeting from "./greeting/Greeting";
 import Skills from "./skills/Skills";
 import WorkExperience from "./workExperience/WorkExperience";
@@ -7,7 +7,6 @@ import Achievement from "./achievement/Achievement";
 import Projects from "./projects/Projects";
 import Footer from "../components/footer/Footer";
 import Top from "./topbutton/Top";
-import Twitter from "./twitter-embed/twitter";
 import Profile from "./profile/Profile";
 
 export default class Main extends Component {
@@ -20,7 +19,6 @@ export default class Main extends Component {
         <WorkExperience />
         <Projects />
         <Achievement />
-        <Twitter />
         <Profile />
         <Footer />
         <Top />

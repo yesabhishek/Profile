@@ -1,51 +1,38 @@
-import React, { useContext } from "react";
+import React from "react";
 import Headroom from "react-headroom";
 import "./Header.css";
-import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
-import StyleContext from "../../contexts/StyleContext";
-import { greeting, workExperiences } from "../../portfolio";
+import {greeting, workExperiences} from "../../portfolio";
 
 function Header() {
-  const { isDark } = useContext(StyleContext);
-  const exp = workExperiences.viewExperiences;
   return (
     <Headroom>
-      <header className={isDark ? "dark-menu header" : "header"}>
+      <header className="header">
         <a href="" className="logo">
           <span className="grey-color"> &lt;</span>
           <span className="logo-name">{greeting.username}</span>
           <span className="grey-color">/&gt;</span>
         </a>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
-        <label
-          className="menu-icon"
-          htmlFor="menu-btn"
-          style={{ color: "white" }}
-        >
-          <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
+        <label className="menu-icon" htmlFor="menu-btn">
+          <span className="navicon"></span>
         </label>
-        <ul className={isDark ? "dark-menu menu" : "menu"}>
+        <ul className="menu">
           <li>
             <a href="#skills">Skills</a>
-          </li>
-          {exp === true && (
+           </li>
+          {workExperiences.viewExperiences &&
             <li>
               <a href="#experience">Work Experiences</a>
             </li>
-          )}
-          <li>
-            <a href="#opensource">Projects</a>
-          </li>
+          }
           <li>
             <a href="#achievements">Achievements</a>
           </li>
           <li>
-            <a href="#contact">Contact Me</a>
+            <a href="https://github.com/yesabhishek">GitHub</a>
           </li>
           <li>
-            <a>
-              <ToggleSwitch />
-            </a>
+            <a href="#contact">Contact Me</a>
           </li>
         </ul>
       </header>

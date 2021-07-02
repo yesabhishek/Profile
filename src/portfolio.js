@@ -9,8 +9,8 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Yesabhishek",
   title: "नमस्ते, I'm Abhishek",
-  subTitle: emoji("A passionate Engineer 🚀 having an experience of building Web applications and working on Data Analytics tools with Python/ Django /Reactjs and some other cool libraries and frameworks."),
-  resumeLink: "https://drive.google.com/file/d/1_-PJEIxsKHq2wv5T6_2cSeh1R1-diU5g/view?usp=sharing"
+  subTitle: emoji("A passionate Computer Science Engineer 🚀 having an experience of building Full Stack Web application and developing  Data Analytical tools/Dashboards  with Python/ Django/ React JS and some other cool libraries and frameworks✌🏻"),
+  resumeLink: "https://drive.google.com/file/d/1NVcDN2AW9z77_zOJW0IUWhGxy-YgKyhl/view?usp=sharing"
 };
 
 // Your Social Media Link
@@ -19,7 +19,7 @@ const socialMediaLinks = {
 
   github: "https://github.com/yesabhishek",
   linkedin: "https://www.linkedin.com/in/yesabhishek/",
-  gmail: "yesabhishek@protonmail.com",
+  gmail: "choudhuryabhishek76@gmail.com",
   instagram: "https://www.instagram.com/yesabhishek/"
   // Instagram and Twitter are also supported in the links!
 };
@@ -28,11 +28,11 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "Skills🎯",
-  subTitle: "Passionate developer and learner who loves to learn new tech. from the internet and start deploying",
+  subTitle: "Enthusiastic developer who loves to learn new tech and write code. Setting up Infrastructure and file system in free time feels amazing.",
   skills: [
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web applications"),
-    emoji("⚡ Machine Learning enthusiast"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Google Cloud")
+    emoji("⚡ Develop highly interactive Front end / User Interfaces with clean and hack-free backend for web applications."),
+    emoji("⚡ Machine Learning and Data Engineering enthusiast."),
+    emoji("⚡ Integration of third party services such as Firebase/ AWS / Google Cloud and API's to make powerful applications.")
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -77,11 +77,11 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
+      skillName: "Postgres/SQL",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
+      skillName: "AWS",
       fontAwesomeClassname: "fab fa-aws"
     },
     {
@@ -127,14 +127,41 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Data Engineer Intern",  
+      role: "Full Stack Developer",  
+      company: "Blue Hex Software, Chennai",
+      companylogo: require("./assets/images/bluehx.png"),
+      date: "Jul 2021 – Present",
+      desc: "Developing CRMs, Data Analytical Dashboards and Web Applications."
+      ,
+      descBullets: [
+        "Working on several client projects which include Data Analytics and Dashboard.",
+        "Implementation in Django, DRF, React Js and Postgres database. ",
+        "Setting up infra and managing API to work with mobile applications in Flutter."
+      ]
+    },
+    {
+      role: "Software Developer",  
+      company: "Bima Garage, Mumbai",
+      companylogo: require("./assets/images/bimagarage.png"),
+      date: "Dec 2020 – Jun 2021",
+      desc: "Analyzed Business requirements, shared the best optimal solution and Developed using Python, Django framework, DRF."
+      ,
+      descBullets: [
+        "Wrote scripts to Sync/Migrate data from one Database to another using AWS RabbitMQ, Django Signals and DRF.",
+        "Set up Infra for all the projects in AWS EC2, static files(logs, images, uploads etc) in AWS S3 and AWS RDS for DB.",
+        "Awarded as the ‘Superstar employee’ at the yearly Bima Garage awards ceremony."
+      ]
+    },
+    {
+      role: "Data Engineer",  
       company: "Sears Holdings, Pune",
       companylogo: require("./assets/images/SearsLogo.png"),
       date: "Oct 2019 – Jun 2020",
       desc: "Worked on Google Cloud Platform (BigQuery), Python and shell scripting.",
       descBullets: [
-        "Prepared scripts to perform ETL(load data from source servers to Big Query Tables).",
-        "Worked on Data Visualization project using Python libraries like Pandas, Matplotlib and numpy."
+        "Migrated data from old servers (Teradata, Mainframes etc) to Google Cloud Platform (Big Query, Spanner).",
+        "Wrote queries, performed extensively on Google Big Query to fetch/retrieve data from Tables.",
+        "Analyzed and Developed scripts to perform ETL(Extract, Transform, Load)."
       ]
     },
     {
@@ -266,7 +293,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+91 7903717967",
-  email_address: "yesabhishek@protonmail.com"
+  email_address: "choudhuryabhishek76@gmail.com"
 };
 
 //Twitter Section
