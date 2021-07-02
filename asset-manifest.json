@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/Profile/static/css/main.5b843ca4.chunk.css",
+    "main.js": "/Profile/static/js/main.06c9d15e.chunk.js",
+    "main.js.map": "/Profile/static/js/main.06c9d15e.chunk.js.map",
+    "runtime-main.js": "/Profile/static/js/runtime-main.adbf599c.js",
+    "runtime-main.js.map": "/Profile/static/js/runtime-main.adbf599c.js.map",
+    "static/js/2.6aa84694.chunk.js": "/Profile/static/js/2.6aa84694.chunk.js",
+    "static/js/2.6aa84694.chunk.js.map": "/Profile/static/js/2.6aa84694.chunk.js.map",
+    "static/css/3.8cba6e30.chunk.css": "/Profile/static/css/3.8cba6e30.chunk.css",
+    "static/js/3.354c619a.chunk.js": "/Profile/static/js/3.354c619a.chunk.js",
+    "static/js/3.354c619a.chunk.js.map": "/Profile/static/js/3.354c619a.chunk.js.map",
+    "static/css/4.8c904c99.chunk.css": "/Profile/static/css/4.8c904c99.chunk.css",
+    "static/js/4.ddb9b0b5.chunk.js": "/Profile/static/js/4.ddb9b0b5.chunk.js",
+    "static/js/4.ddb9b0b5.chunk.js.map": "/Profile/static/js/4.ddb9b0b5.chunk.js.map",
+    "index.html": "/Profile/index.html",
+    "precache-manifest.5a6c515c0e421eac8d15541e274c490f.js": "/Profile/precache-manifest.5a6c515c0e421eac8d15541e274c490f.js",
+    "service-worker.js": "/Profile/service-worker.js",
+    "static/css/3.8cba6e30.chunk.css.map": "/Profile/static/css/3.8cba6e30.chunk.css.map",
+    "static/css/4.8c904c99.chunk.css.map": "/Profile/static/css/4.8c904c99.chunk.css.map",
+    "static/css/main.5b843ca4.chunk.css.map": "/Profile/static/css/main.5b843ca4.chunk.css.map",
+    "static/media/index.css": "/Profile/static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/SearsLogo.png": "/Profile/static/media/SearsLogo.f1807fee.png",
+    "static/media/TinplateLogo.jpeg": "/Profile/static/media/TinplateLogo.6bb29632.jpeg",
+    "static/media/aptechlogo.webp": "/Profile/static/media/aptechlogo.ddc7d250.webp",
+    "static/media/banner.png": "/Profile/static/media/banner.645bce38.png",
+    "static/media/contactMail.webp": "/Profile/static/media/contactMail.68e84138.webp",
+    "static/media/developerActivity.svg": "/Profile/static/media/developerActivity.c1a95f73.svg",
+    "static/media/googleAssistantLogo.webp": "/Profile/static/media/googleAssistantLogo.e79c6392.webp",
+    "static/media/hackerranklogo.webp": "/Profile/static/media/hackerranklogo.0fc01a8b.webp",
+    "static/media/logo.svg": "/Profile/static/media/logo.25bf045c.svg",
+    "static/media/nextuLogo.webp": "/Profile/static/media/nextuLogo.829ad0a1.webp",
+    "static/media/saayaHealthLogo.webp": "/Profile/static/media/saayaHealthLogo.25018d29.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.adbf599c.js",
+    "static/js/2.6aa84694.chunk.js",
+    "static/css/main.5b843ca4.chunk.css",
+    "static/js/main.06c9d15e.chunk.js"
+  ]
+}
